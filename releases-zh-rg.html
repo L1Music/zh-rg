@@ -1,0 +1,114 @@
+<HTML lang="zh-rg">
+    <head></head>
+    <meta charset="utf-8" />
+    <title>SoundCloud</title>
+    <style>
+    @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+    @font-face {
+            font-family: "Huninn";
+            src: url(Huninn.ttf) format("truetype");
+        }
+    p.customfont { 
+            font-family: "Huninn", Verdana, Tahoma;
+        }
+    body {
+        background: #1b1a19;
+        color: #fff;
+        font-family: "Huninn", sans-serif;
+        font-size: 20px;
+        }
+    .button {
+        background-color: #292827; 
+        border: none;
+        border-radius: 0px;
+        color: #fff;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        font-family:"Quicksand"
+    }
+            
+    .dropbtn {
+        background-color: #292827;
+        color: white;
+        padding: 15px 32px;
+        font-size: 16px;
+        border: none;
+        cursor: pointer;
+        }
+
+        
+        .dropdown {
+        position: relative;
+        display: inline-block;
+        }
+
+        
+        .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #3b3a39;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+        }
+
+        
+        .dropdown-content a {
+        color: white;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        }
+
+        
+        .dropdown-content a:hover {background-color: #292827}
+
+        
+        .dropdown:hover .dropdown-content {
+        display: block;
+        }
+
+        
+        .dropdown:hover .dropbtn {
+        background-color: #292827;
+        }
+    </style>
+  
+
+  <body>
+  <font color = white >
+    <p style="font-family:Huninn">請收聽我的歌曲</p>
+    <script>
+      function function1() {
+        var x = document.getElementById("soundcloud");
+        if (x.style.display === "none") {
+          x.style.display = "block";
+        } else {
+          x.style.display = "none";
+        }
+      }
+    </script>
+    <button class="button" onclick="function1()">SoundCloud</button>
+    <div id="soundcloud">
+      <iframe height="800px" width="100%" scroll="no" src="soundcloud-zh-rg.html" frameBorder="0" name="main" ></iframe>
+    </div>
+    <script>
+      function function2() {
+        var y = document.getElementById("youtube");
+        if (y.style.display === "none") {
+          y.style.display = "block";
+        } else {
+          y.style.display = "none";
+        }
+      }  
+    </script>
+    <button class="button" onclick="function2()">Youtube</button>
+    <div id="youtube">
+      <iframe height="600px" width="100%" scroll="no" src="youtube-zh-rg.html" frameBorder="0" name="main" ></iframe>
+    </div>
+  </font>
+  </body>
+  </HTML>
