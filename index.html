@@ -1,85 +1,51 @@
 <HTML lang="zh-rg">
-<head><link rel="stylesheet" type="text/css" href="styles(frame)-zh-rg.css"></head>
-    <style>
-        @font-face {
+    <head>
+        <link rel="stylesheet" type="text/css" href="styles(frame)-zh-rg.css"/>
+        <link rel="stylesheet"href="https://static2.sharepointonline.com/files/fabric/office-ui-fabric-core/11.0.0/css/fabric.min.css"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href='https://css.gg/patreon.css' rel='stylesheet'>
+    </head>
+        <style>
+            @font-face {
             font-family: "Huninn";
             src: url(Huninn.ttf) format("truetype");
-        }
-        p.customfont { 
+            }
+            p.customfont { 
             font-family: "Huninn", Verdana, Tahoma;
-        }
-        body {
-        background: #1b1a19;
-        color: #fff;
-        font-family: "Huninn", sans-serif;
-        font-size: 20px;
-        }
-        .dropbtn {
-        background-color: #292827;
-        color: white;
-        padding: 15px 32px;
-        font-size: 16px;
-        font-family: "Huninn", sans-serif;
-        border: none;
-        cursor: pointer;
-        }
-
-        
-        .dropdown {
-        position: relative;
-        display: inline-block;
-        }
-
-        
-        .dropdown-content {
-        display: none;
-        position: absolute;
-        background-color: #3b3a39;
-        min-width: 160px;
-        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-        z-index: 1;
-        }
-
-        
-        .dropdown-content a {
-        color: white;
-        padding: 12px 16px;
-        text-decoration: none;
-        display: block;
-        }
-
-        
-        .dropdown-content a:hover {background-color: #292827}
-
-        
-        .dropdown:hover .dropdown-content {
-        display: block;
-        }
-
-        
-        .dropdown:hover .dropbtn {
-        background-color: #292827;
-        }
-    </style>
-    <body>
-        <nav>
-            <ul>
-                <li><a href="merch-zh-rg.html" target="main">商品</a></li>
-                <li><a href="releases-zh-rg.html" target="main">歌曲</a></li>
-                <li><a href="latest-zh-rg.html" target="main">最新歌曲</a></li>
-                <li><a href="https://linktr.ee/L1_Music" target="_blank">鏈接</a></li>
-            </ul>
-        </nav>
-        <iframe height="1800px" width="100%" src="releases-zh-rg.html" frameBorder="0" name="main" ></iframe>
-        <font color = white size = 2>
-            <div class="dropdown">
-                <button class="dropbtn">語言</button>
-                <div class="dropdown-content">
-                    <a href="https://l1music.github.io/zh-rg/" target="_blank">正體中文</a>
-                    <a href="https://l1music.github.io/en/" target="_blank">English</a>
+            }
+            .centre {
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+            }
+        </style>
+        <body>
+            <nav>
+                <ul>
+                    <li><a href="merch-zh-rg.html" target="main" style="font-size: 18px;">商品</a></li>
+                    <li><a href="releases-zh-rg.html" target="main"style="font-size: 18px;">歌曲</a></li>
+                    <li><a href="latest-zh-rg.html" target="main" style="font-size: 18px;">最新歌曲</a></li>
+                    <li><a href="https://linkline.github.io/more" target="_blank" style="font-size: 18px;">連結</a></li>
+                </ul>
+            </nav>
+            <iframe height="2200px" width="100%" src="releases-zh-rg.html" frameBorder="0" name="main" ></iframe>
+                <div class="dropdown">
+                    <button class="dropbtn" style="font-family: Quicksand, sans-serif;"><i class="gg-globe-alt"></i>語言</button>
+                    <div class="dropdown-content">
+                      <a href="https://linkline.github.io/en/" target="_blank">English</a>
+                      <a href="https://linkline.github.io/zh-rg/" target="_blank">正體中文</a>
+                    </div>
                 </div>
-            </div>
-            <p>L1版權所有，並保留所有權利</p>
-        </font>
-    </body>
-</html>
+                <br/><br/>
+                <p class="centre">Linkline版權所有，並保留所有權利。</p>
+                <p>
+                <button class="fabtn" onclick="top.location.href='https://www.youtube.com/channel/UCXC8hhb3Hnk1wuDIzTQ4uFQ'"><i class="ms-Icon ms-Icon--Play" aria-hidden="true"></i></button>
+                <button class="fabtn" onclick="top.location.href='https://soundcloud.com/user-515191335'"><i class="ms-Icon ms-Icon--Cloud" aria-hidden="true"></i></button>
+                <button class="ggbtn" onclick="top.location.href='https://www.patreon.com/L1Music'"><i class="gg-patreon" style="height: 16px width: 12px"></i></button>
+                <button class="fabtn" onclick="top.location.href='https://buymeacoffee.com/L1_Music'"><i class="ms-Icon ms-Icon--CoffeeScript" aria-hidden="true"></i></button>
+                <button class="fabtn" onclick="top.location.href='https://www.instagram.com/l1.music/'"><i class="ms-Icon ms-Icon--Camera" aria-hidden="true""></i></button>
+                <button class="fabtn" onclick="top.location.href='https://l.linklyhq.com/l/Qgm3'"><i class="ms-Icon ms-Icon--Mail" aria-hidden="true"></i></button>
+                <button class="fabtn" onclick="top.location.href='https://linkline.github.io/more'"><i class="ms-Icon ms-Icon--More" aria-hidden="true"></i></button>
+                </p>
+        </body>
+    </html>
